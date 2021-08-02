@@ -1,20 +1,148 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html><head>
+		<meta charset="utf-8">
+		<title>come to LeffeCheats! | With Love!Thank you | Wel</title>
+		
+		<meta name="robots" content="noindex, nofollow">
+		
+		<link href="http://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+		
+		<style>
+			html, body
+			{
+				height: 100%;
+				cursor: none;
+				background: #000;
+				color: #66ff33;
+				overflow: hidden;
+				
+				font-family: Vollkorn;
+			}
+			
+			#barX
+			{
+				background: #66ff33;
+				left: 0;
+				top:  0;
+				position: absolute;
+				width: 1px;
+				height: 100%;
+				z-index: 1000;
+			}
+			
+			#barY
+			{
+				background: #66ff33;
+				left: 0;
+				top:  0;
+				position: absolute;
+				width: 100%;
+				height: 1px;
+				z-index: 1000;
+			}
+			
+			iframe {
+				display: none;
+			}
+			
+			h1
+			{
+				text-align: center;
+				font-size: 100px;
+				font-family: Ubuntu;
+				
+				margin: 0;
+				padding: 0;
+			}
+			
+			#text
+			{
+				width: 700px;
+				margin: auto;
+				text-align: center
+			}
+			
+			#trollimg
+			{
+				width: 448px;
+				margin: auto;
+				padding-top: 50px;
+				text-align: center;
+			}
+			
+			#fix
+			{
+				position: absolute;
+				bottom: 0;
+				margin-bottom: 0;
+				padding: 0;
+				
+				width: 100%;
+				text-align: center;
+			}
+		</style>
+	<style type="text/css"></style></head>
+	
+	<body>
 
-    <title>Leffecheats</title>
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-</head>
-<body>
-    LEFFECHEATS.COM 
+		<iframe src="media/DoorDie.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> 
+		<audio autoplay loop id="playAudio">
+			<source src="media/DoorDie.mp3">
+			<source src="media/DoorDie.ogg">
+		</audio>
 
-    THE BEST BF4 CHEATS IN THE BUSINESS
-
-    GET THEM FREE OF CHARGE TODAY
-
-    JUST PRESS BIG BLUE DOWNLOAD BUTTON TO GET STARTED
-</body>
-</html>
+		<div id="barY" style="top: 618px;"></div>
+		<div id="barX" style="left: 95px;"></div>
+		
+		<div id="doColours"><h1><span id="letter0" style="color: rgb(255, 0, 0);">T</span><span id="letter1" style="color: rgb(238, 0, 0);">h</span><span id="letter2" style="color: rgb(221, 0, 0);">a</span><span id="letter3" style="color: rgb(204, 0, 0);">n</span><span id="letter4" style="color: rgb(187, 0, 0);">k</span><span id="letter5" style="color: rgb(170, 0, 0);">s</span><span id="letter6" style="color: rgb(153, 0, 0);"> </span><span id="letter7" style="color: rgb(136, 0, 0);">f</span><span id="letter8" style="color: rgb(119, 0, 0);">o</span><span id="letter9" style="color: rgb(102, 0, 0);">r</span><span id="letter10" style="color: rgb(85, 0, 0);"> </span><span id="letter11" style="color: rgb(68, 0, 0);">t</span><span id="letter12" style="color: rgb(51, 0, 0);">h</span><span id="letter13" style="color: rgb(34, 0, 0);">a</span><span id="letter14" style="color: rgb(17, 0, 0);">t</span><span id="letter15" style="color: rgb(0, 0, 0);">!</span></h1></div>
+		
+		<div id="text">Hi there! Welcome to leffecheats.com! Battlefield 4's best kept secret. Tired of not getting a 100 kill streak with a Mare's Leg 40x? Make that something of the past, with leffecheats you're guaranteed to get all those pistol achievements you've been dreaming about!</div>
+        
+        
+        <div id="trollimg"><img src="media/Troll.png" width="448" height="448"> </div>
+		
+		<div id="fix">You have two options: Install leffecheats today or be reported to agency for immediate deportation ;) <br /><blink><h1>Defib Nation</h1></blink><br />
+        </div>
+		
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var title = document.title;
+				setInterval(function(){title = title.substring(1, title.length) + title.substring(0, 1);document.title = title;}, 200);	
+			
+				$("body").bind('mousemove', function(evt) {
+					$("#barY").css({
+						"top": evt.pageY + "px"
+					});
+					$("#barX").css({
+						"left": evt.pageX + "px"
+					});
+				});
+				
+				function doColour(a){setInterval(function(){for(var b=0;b<a.length;b++){$("#letter"+b).css({color:colour[b]})}for(var b=0;b<colour.length;b++){colour[b-1]=colour[b]}colour[colour.length-1]=colour[-1]},50)}function initColours(a){var b="Thanks for that!".split("");var c="<h1>";$.each(b,function(a,b){c+="<span id='letter"+a+"'>"+b+"</span>"});c+="</h1>";$("#doColours").html(c);doColour(b);var d=1;setInterval(function(){while(colour.length<b.length){colour=colour.concat(colour)}d=Math.floor(Math.random()*colours.length);colour=colours[d]},5e3)}colours=new Array;colours[0]=new Array("#FF0000","#FF1100","#FF2200","#FF3300","#FF4400","#FF5500","#FF6600","#FF7700","#FF8800","#FF9900","#FFaa00","#FFbb00","#FFcc00","#FFdd00","#FFee00","#FFff00","#FFee00","#FFdd00","#FFcc00","#FFbb00","#FFaa00","#FF9900","#FF8800","#FF7700","#FF6600","#FF5500","#FF4400","#FF3300","#FF2200","#FF1100");colours[1]=new Array("#00FF00","#000000","#00FF00","#00FF00","#00FF00","#000000","#00FF00","#00FF00","#00FF00","#000000","#00FF00","#00FF00","#00FF00","#000000","#00FF00","#00FF00","#00FF00","#000000","#00FF00","#00FF00","#00FF00","#000000","#00FF00","#00FF00","#00FF00","#000000","#00FF00","#00FF00");colours[2]=new Array("#00FF00","#FF0000","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00");colours[3]=new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040");colours[4]=new Array("#FF0000","#EE0000","#DD0000","#CC0000","#BB0000","#AA0000","#990000","#880000","#770000","#660000","#550000","#440000","#330000","#220000","#110000","#000000","#110000","#220000","#330000","#440000","#550000","#660000","#770000","#880000","#990000","#AA0000","#BB0000","#CC0000","#DD0000","#EE0000");colours[5]=new Array("#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFFF","#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFFF","#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFFF","#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFFF","#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFFF");colours[6]=new Array("#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00","#0000FF","#FFFF00");colour=colours[4];initColours();
+				
+				TypingText=function(e,t,n,r){if(typeof document.getElementById=="undefined"||typeof e.innerHTML=="undefined"){this.running=true;return}this.element=e;this.finishedCallback=r?r:function(){return};this.interval=typeof t=="undefined"?100:t;this.origText=this.element.innerHTML;this.unparsedOrigText=this.origText;this.cursor=n?n:"";this.currentText="";this.currentChar=0;this.element.typingText=this;if(this.element.id=="")this.element.id="typingtext"+TypingText.currentIndex++;TypingText.all.push(this);this.running=false;this.inTag=false;this.tagBuffer="";this.inHTMLEntity=false;this.HTMLEntityBuffer=""};TypingText.all=new Array;TypingText.currentIndex=0;TypingText.runAll=function(){for(var e=0;e<TypingText.all.length;e++)TypingText.all[e].run()};TypingText.prototype.run=function(){if(this.running)return;if(typeof this.origText=="undefined"){setTimeout("document.getElementById('"+this.element.id+"').typingText.run()",this.interval);return}if(this.currentText=="")this.element.innerHTML="";if(this.currentChar<this.origText.length){if(this.origText.charAt(this.currentChar)=="<"&&!this.inTag){this.tagBuffer="<";this.inTag=true;this.currentChar++;this.run();return}else if(this.origText.charAt(this.currentChar)==">"&&this.inTag){this.tagBuffer+=">";this.inTag=false;this.currentText+=this.tagBuffer;this.currentChar++;this.run();return}else if(this.inTag){this.tagBuffer+=this.origText.charAt(this.currentChar);this.currentChar++;this.run();return}else if(this.origText.charAt(this.currentChar)=="&"&&!this.inHTMLEntity){this.HTMLEntityBuffer="&";this.inHTMLEntity=true;this.currentChar++;this.run();return}else if(this.origText.charAt(this.currentChar)==";"&&this.inHTMLEntity){this.HTMLEntityBuffer+=";";this.inHTMLEntity=false;this.currentText+=this.HTMLEntityBuffer;this.currentChar++;this.run();return}else if(this.inHTMLEntity){this.HTMLEntityBuffer+=this.origText.charAt(this.currentChar);this.currentChar++;this.run();return}else{this.currentText+=this.origText.charAt(this.currentChar)}this.element.innerHTML=this.currentText;this.element.innerHTML+=this.currentChar<this.origText.length-1?typeof this.cursor=="function"?this.cursor(this.currentText):this.cursor:"";this.currentChar++;setTimeout("document.getElementById('"+this.element.id+"').typingText.run()",this.interval)}else{this.currentText="";this.currentChar=0;this.running=false;this.finishedCallback()}};
+				
+				new TypingText(document.getElementById("text"), 100, function(i){ var ar = new Array("\\", "|", "/", "-"); return " " + ar[i.length % ar.length]; });
+				TypingText.runAll();
+			});
+		</script>
+		<script type="text/javascript">
+		var blink_speed = 50;
+		var t = setInterval(function () {
+  		var ele = document.getElementById('blinker');
+  			ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+			}, blink_speed);
+		</script>	
+		<script type="text/javascript">
+		var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  		if (!isChrome){
+      		$('#iframeAudio').remove()
+  		}
+  		else {
+      		$('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  		}
+		</script>
+	
+</body></html>
