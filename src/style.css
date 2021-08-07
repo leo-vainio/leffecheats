@@ -71,6 +71,7 @@ body{
 .content{
     padding-top: 200px;
     text-align: center;
+    line-height: 90px;
 }
 
 .content h1{
