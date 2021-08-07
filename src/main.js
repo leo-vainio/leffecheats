@@ -1,7 +1,5 @@
 $(document).ready(function(){
-    var title = document.title;
-    setInterval(function(){title = title.substring(1, title.length) + title.substring(0, 1);document.title = title;}, 200);	
-
+    // crosshair
     $("body").bind('mousemove', function(evt) {
         $("#barY").css({
             "top": evt.pageY + "px"

@@ -27,6 +27,25 @@ body{
     z-index: 0;
 }
 
+#trollimg
+{
+    width: 448px;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#fix
+{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    padding: 0;
+    
+    width: 100%;
+    text-align: center;
+}
+
 .text{
     font-family: 'Cutive Mono', monospace;
     font-size: 20px;
