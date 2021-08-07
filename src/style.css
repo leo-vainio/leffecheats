@@ -114,8 +114,6 @@ body{
     z-index: 1000;
 }
 
-
-
 h2{
 	font-size: 7em;
 	letter-spacing: 15px;
@@ -140,5 +138,36 @@ h2{
 		             0 0 80px #03f403,
 		             0 0 160px #03f417;
 	}
+}
+
+html, body
+{
+    height: 100%;
+    background: #000;
+    color: #66ff33;
+    overflow: hidden;
+    
+    font-family: Vollkorn;
+}
+
+iframe {
+    display: none;
+}
+
+#text
+{
+    width: 700px;
+    margin: auto;
+    text-align: center
+}
+
+h1
+{
+    text-align: center;
+    font-size: 100px;
+    font-family: Ubuntu;
+    
+    margin: 0;
+    padding: 0;
 }
 
