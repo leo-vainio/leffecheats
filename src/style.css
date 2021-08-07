@@ -69,6 +69,7 @@ body{
 }
 
 .content{
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -138,17 +139,6 @@ h2{
 		             0 0 80px #03f403,
 		             0 0 160px #03f417;
 	}
-}
-
-#fix
-{
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 0;
-    padding: 0;
-    
-    width: 100%;
-    text-align: center;
 }
 
 iframe {
