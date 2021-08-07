@@ -10,7 +10,8 @@ var textToBeTyped = "Leffecheats [Version 10.0.10240]\n" +
 "guaranteed to get all those pistol achievements you've been dreaming " +
 "about!\n\n" +
 "C:\\Users\\Hackerboi>start leffecheats.exe\n" +
-"You have two options: Install leffecheats today or be reported to agency for immediate deportation ;)"
+"You have two options: Install leffecheats today or be reported to agency for immediate deportation ;)\n\n" +
+"C:\\Users\\Hackerboi>"
 var index = 0, isAdding = true
 
 function playAnim() {
