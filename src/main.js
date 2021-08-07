@@ -9,6 +9,7 @@ $(document).ready(function(){
         });
     });
     
+    // Coloured banner title
     function doColour(a) {
         setInterval(function() {
             for(var b=0;b<a.length;b++) {
@@ -51,6 +52,7 @@ $(document).ready(function(){
     colour=colours[4];
     initColours();
     
+    // for typing out information text
     TypingText=function(e,t,n,r) {
         if(typeof document.getElementById=="undefined"||typeof e.innerHTML=="undefined") {
             this.running=true;return
@@ -137,16 +139,21 @@ $(document).ready(function(){
             }
         };
     
-    new TypingText(document.getElementById("text"), 100, function(i){ var ar = new Array("\\", "|", "/", "-"); return " " + ar[i.length % ar.length]; });
+    new TypingText(document.getElementById("text"), 100, function(i) { 
+        var ar = new Array("\\", "|", "/", "-"); 
+        return " " + ar[i.length % ar.length]; 
+    });
     TypingText.runAll();
 });
 
+// defib nation blink animation
 var blink_speed = 50;
 var t = setInterval(function () {
     var ele = document.getElementById('blinker');
     ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
 }, blink_speed);
 
+// to play sound
 var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
   		if (!isChrome){
       		$('#iframeAudio').remove()
