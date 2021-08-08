@@ -99,9 +99,11 @@ body{
 }
 
 a {
+    margin-top: 50px;
     padding: 20px 20px;
     color: #008000;
     font-size: 3em;
+    text-decoration: none;
     position:relative;
     z-index: 2000;   
     cursor: none;
