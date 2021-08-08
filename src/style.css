@@ -107,6 +107,8 @@ a {
     text-decoration: none;
     font-size: 3em;
     overflow: hidden;
+    z-index: 2000;   
+    cursor: none;
 }
 
 a:hover {
