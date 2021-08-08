@@ -94,7 +94,8 @@ body{
     color:#eee;
     font-size: 18px;
     cursor: pointer;    
-    background:#222;             
+    background:#222;
+    z-index: 10000;             
 }
 
 /* main area */
@@ -151,15 +152,5 @@ iframe {
     width: 700px;
     margin: auto;
     text-align: center
-}
-
-h1
-{
-    text-align: center;
-    font-size: 100px;
-    font-family: Ubuntu;
-    
-    margin: 0;
-    padding: 0;
 }
 
