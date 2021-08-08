@@ -104,6 +104,8 @@ body{
     width: 70%;
     margin: 50px auto;
     padding: 10px;
+    position:relative;
+    z-index: 10000;
 }
 
 .container .box {
