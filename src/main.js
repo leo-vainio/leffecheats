@@ -8,14 +8,13 @@ var textToBeTyped = "Leffecheats [Version 10.0.10240]\n" +
 "Hi there! Welcome to leffecheats.com! Battlefield 4's " +
 "best kept secret. Tired of not getting a 100 kill streak with a Mare's " +
 "Leg 40x? Make that something of the past, with leffecheats you're " +
-"guaranteed to get all those pistol achievements you've been dreaming " +
-"about!\n\n" +
+"guaranteed to get all those pistol achievements you've been dreaming about!\n\n" +
 "You have two options: Install leffecheats today or be reported to agency for immediate deportation ;)\n\n" +
 "C:\\Program Files (x86)\\Origin Games\\Battlefield 4>"
 
-var index = 0, isAdding = true
+var index = 0, isAdding = true, delay = 0
 
-function playAnim() {
+function playAnim() { // rewrite so that console commands get typed instantly and randomize time for better typing simulation.
     setTimeout(function () {
         typeText.innerText = textToBeTyped.slice(0, index)
         if (isAdding) {
