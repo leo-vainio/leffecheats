@@ -102,6 +102,7 @@ a {
     padding: 20px 20px;
     color: #008000;
     font-size: 3em;
+    position:relative;
     z-index: 2000;   
     cursor: none;
 }
