@@ -101,10 +101,8 @@ body{
 /* main area */
 
 .container {
-    width: 70%;
-    margin: 50px auto;
-    padding: 10px;
-    position:relative;
+    width: 100%;
+    position: relative;
     z-index: 10000;
 }
 
