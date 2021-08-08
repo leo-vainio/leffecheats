@@ -34,6 +34,7 @@ body{
     height:100vh;
     background-color: #000;
     background-size:cover;
+    z-index: 0;
 }   
 
 .banner-background {
@@ -41,8 +42,6 @@ body{
     left: 0;
     top:  0;
     position: absolute;
-    width: 100%;
-    height: 100vh;
 }
 
 .text{
@@ -80,11 +79,6 @@ body{
     color:#66ff33;
 }
 
-.content p{
-    font-size:30px;
-    color:#66ff33;
-}
-
 .content .btn{
     border:none;
     outline:none;
@@ -94,8 +88,8 @@ body{
     color:#eee;
     font-size: 18px;
     cursor: pointer;    
-    background:#222;
-    z-index: 10000;             
+    background:#222;   
+    z-index: 2;          
 }
 
 /* main area */
