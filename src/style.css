@@ -34,7 +34,7 @@ body{
     height:100vh;
     background-color: #000;
     background-size:cover;
-    z-index: 0;
+    cursor: none;
 }   
 
 .banner-background {
