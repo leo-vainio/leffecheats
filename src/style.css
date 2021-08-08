@@ -92,7 +92,8 @@ body{
     cursor: pointer;    
     background:#222;   
     position: relative;
-    z-index: 2000;         
+    z-index: 2000;   
+    cursor: none;      
 }
 
 /* main area */
