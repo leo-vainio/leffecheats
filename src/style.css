@@ -18,6 +18,7 @@ body{
     height: 100%;
     z-index: 1000;
     cursor: none;
+    overflow: hidden;
 }
 
 #barY {
@@ -29,6 +30,7 @@ body{
     height: 1px;
     z-index: 1000;
     cursor: none;
+    overflow: hidden;
 }
 
 .banner-area{
