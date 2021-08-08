@@ -72,7 +72,7 @@ body{
 }
 
 .content{
-    padding-top: 220px;
+    padding-top: 180px;
     text-align: center;
     line-height: 90px;
 }
@@ -81,6 +81,10 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size:80px;
     color:#66ff33;
+}
+
+.content #blinker {
+    margin-bottom: 500px;
 }
 
 a {
