@@ -83,16 +83,13 @@ body{
     color:#66ff33;
 }
 
-.content #blinker {
-    margin-bottom: 500px;
-}
-
-a {
+.content a {
     padding: 10px;
+    margin-top: 100px;
+    display: inline-block;
     color: #008000;
     font-size: 20px;
     text-decoration: none;
-    position:relative;
     z-index: 2000;   
     cursor: none;
 }
