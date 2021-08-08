@@ -12,20 +12,27 @@ var textToBeTyped = "Leffecheats [Version 10.0.10240]\n" +
 "You have two options: Install Leffecheats today or be reported to agency for immediate deportation ;)\n\n" +
 "C:\\Program Files (x86)\\Origin Games\\Battlefield 4>"
 
-var index = 0, isAdding = true, delay = 0
+var index = 108, delay = 0
 
-function playAnim() { // rewrite so that console commands get typed instantly and randomize time for better typing simulation.
+function playAnim() {
     setTimeout(function () {
         typeText.innerText = textToBeTyped.slice(0, index)
-        if (isAdding) {
-            if (index > textToBeTyped.length) {
-                return false
-            } else {
-                index++
-            }
-        } 
+        
+        if (index > textToBeTyped.length) {
+            return false
+        } else if(index == 160) {
+            delay = 1000
+            index = 210;
+        } else if(index == 234) {
+            delay = 1000
+            index = textToBeTyped.length
+        } else {
+            delay = 100 + Math.floor(Math.random() * 100);
+            index++
+        }
+
         playAnim()
-    }, 10)
+    }, delay)
 }
 playAnim()
 
