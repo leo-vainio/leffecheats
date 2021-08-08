@@ -17,6 +17,10 @@ body{
     cursor: none;
 } 
 
+#barHeight{
+    height: 100%;
+}
+
 #barX {
     background: #66ff33;
     left: 0;
