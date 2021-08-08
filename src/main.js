@@ -4,7 +4,7 @@ var typeText = document.querySelector(".text")
 var textToBeTyped = "Leffecheats [Version 10.0.10240]\n" +
 "(c) 2021 Leffecheats Corporation. All rights reserved.\n\n" +
 "C:\\Users\\Hackerboi>cd C:\\Program Files (x86)\\Origin Games\\Battlefield 4\n\n" +
-"C:\\Program Files (x86)\\Origin Games\\Battlefield 4> leffecheats.exe init\n" +
+"C:\\Program Files (x86)\\Origin Games\\Battlefield 4> start leffecheats.exe\n" +
 "Hi there! Welcome to leffecheats.com! Battlefield 4's " +
 "best kept secret. Tired of not getting a 100 kill streak with a Mare's " +
 "Leg 40x? Make that something of the past, with leffecheats you're " +
