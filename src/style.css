@@ -112,7 +112,7 @@ body{
 /* main area */
 
 .container {
-    padding: 50px;
+    padding: 5%;
     margin: 0px;
     background: #f4f4f4;
     width: 100%;
@@ -124,16 +124,13 @@ body{
 }
 
 .container .box {
-    width: 80%;
+    width: 33.3%;
     padding: 0px;
-    background: lime;
-    margin: 50px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px -3px rgba(0, 0, 0, .1);
+    margin: 25px;
 }
 
 .container .box .top {
-    padding: 20px;
+    padding: 30px;
     margin: 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -145,7 +142,10 @@ body{
     padding: 20px;
     margin: 0px;
     background-color: #fff;
-    border-color: #000;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-bottom-color: #c5c5c5;
+    border-top-color: #c5c5c5;
 }
 
 .container .box .bottom {
