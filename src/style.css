@@ -160,14 +160,33 @@ h2{
 	}
 }
 
-iframe {
-    display: none;
-}
-
 #text
 {
     width: 700px;
     margin: auto;
     text-align: center
 }
+
+.info {
+    display: flex;
+    padding: 40px 100px;
+    background: rgb(233, 233, 233);
+    color: rgb(155, 155, 155);
+}
+
+.info p {
+    padding-right: 20px;
+}
+
+.info a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: rgb(155, 155, 155);
+}
+
+.info a:hover {
+    text-decoration: underline;
+    color: #5233ff;
+}
+
 
