@@ -1,4 +1,13 @@
 
+// to play sound
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+if (!isChrome){
+    $('#iframeAudio').remove()
+}
+else {
+    $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+}
+
 // CONSOLE TEXT
 var typeText = document.querySelector(".text")
 var textToBeTyped = "Leffecheats [Version 10.0.10240]\n" +
@@ -97,12 +106,3 @@ var t = setInterval(function () {
     var ele = document.getElementById('blinker');
     ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
 }, blink_speed);
-
-// to play sound
-var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-  		if (!isChrome){
-      		$('#iframeAudio').remove()
-  		}
-  		else {
-      		$('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-  		}
