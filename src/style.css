@@ -135,19 +135,24 @@ body{
 .container .box .top {
     padding: 20px;
     margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     background: #fff;
     text-align: center;
 }
 
 .container .box .middle {
-    padding: 0px;
+    padding: 20px;
     margin: 0px;
-    background-color: #03f403;
+    background-color: #fff;
+    border-color: #000;
 }
 
 .container .box .bottom {
     padding: 20px;
     margin: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: #fff;
     text-align: center;
 }
