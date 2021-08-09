@@ -138,14 +138,23 @@ body{
     text-align: center;
 }
 
+.container .box .top p {
+    color: #999999;
+}
+
 .container .box .middle {
     padding: 20px;
     margin: 0px;
     background-color: #fff;
+    line-height: 2.5em;
     border-top-style: solid;
     border-bottom-style: solid;
     border-bottom-color: #c5c5c5;
     border-top-color: #c5c5c5;
+}
+
+.container .box .middle p {
+    color: black;
 }
 
 .container .box .bottom {
@@ -155,6 +164,29 @@ body{
     border-bottom-right-radius: 10px;
     background-color: #fff;
     text-align: center;
+}
+
+.container .box .bottom p {
+    margin: 10px;
+}
+
+.container .box .bottom a {
+    position: relative;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(184, 184, 184);
+    padding: 15px;
+    color: #000;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.container .box .bottom a:hover {
+    border-color: #000;
+    border-width: 2px;
 }
 
 
@@ -216,6 +248,9 @@ h2{
     text-decoration: underline;
     color: #5233ff;
 }
+
+
+
 
 
 
