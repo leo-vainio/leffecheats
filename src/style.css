@@ -125,11 +125,31 @@ body{
 
 .container .box {
     width: 80%;
-    padding: 50px;
+    padding: 0px;
     background: lime;
     margin: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px -3px rgba(0, 0, 0, .1);
+}
+
+.container .box .top {
+    padding: 20px;
+    margin: 0px;
+    background: #fff;
+    text-align: center;
+}
+
+.container .box .middle {
+    padding: 0px;
+    margin: 0px;
+    background-color: #03f403;
+}
+
+.container .box .bottom {
+    padding: 20px;
+    margin: 0px;
+    background-color: #fff;
+    text-align: center;
 }
 
 
@@ -192,8 +212,7 @@ h2{
     color: #5233ff;
 }
 
-.icons {
-    float: right;
-}
+
+
 
 
