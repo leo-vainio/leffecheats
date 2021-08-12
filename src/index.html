@@ -53,9 +53,10 @@
 						<h1>-Defib Nation-</h1>
 					</span>
 					
-					<a href="#container">
+					<p id="button">
 						Get Started
-					</a>
+					</p>
+					
 			   </div>
 			</div>
 		</div>
@@ -138,5 +139,10 @@
 		
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="main.js"></script>	
+		<script>
+			document.getElementById("button").addEventListener("click", function() {
+				document.getElementById("container").scrollIntoView();
+			})
+		</script>
 	</body>
 </html>

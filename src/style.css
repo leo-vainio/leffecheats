@@ -84,7 +84,7 @@ body{
     color:#66ff33;
 }
 
-.content a {
+.content p {
     font-family: 'Poppins', sans-serif;
     position: relative;
     display: inline-block;
@@ -102,7 +102,7 @@ body{
     z-index: 2000;
 }
 
-.content a:hover {
+.content p:hover {
     color: #408425;
     background: #66ff33;
     box-shadow: 0 0 10px #66ff33, 0 0 40px #66ff33, 0 0 80px #66ff33;
