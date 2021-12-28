@@ -65,6 +65,12 @@ body{
     50% {opacity: 0;}
 }
 
+#juss {
+	font-family: 'Cutive Mono', monospace;
+    font-size: 18px;
+    color:#66ff33; 
+}
+
 .content-area{
     height:100%;
     display:flex;
