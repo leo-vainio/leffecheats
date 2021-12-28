@@ -73,6 +73,12 @@ body{
     color:#ff00f7; 
 }
 
+#juss-image {
+   position: absolute;
+   padding:0;
+   margin:0;
+}
+
 .content-area{
     height:100%;
     display:flex;
